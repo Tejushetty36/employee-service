@@ -1,0 +1,7 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: EMPLOYEE-SERVICE
+  config:
+    import: configserver:http://localhost:8092/
